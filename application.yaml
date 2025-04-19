@@ -6,3 +6,6 @@ eureka:
     registry-with-eureka: true
     service-url:
       defaultZone: http://${EurekaUrl:localhost}:8761/eureka
+spring:
+  zipkin:
+    baseUrl: http://zipkin-svc:9411
